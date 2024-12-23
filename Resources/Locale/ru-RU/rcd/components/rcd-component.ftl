@@ -6,11 +6,11 @@ rcd-component-examine-build-details = Выбран режим строитель
 ### Interaction Messages
 
 # Mode change
-rcd-component-change-mode = РСУ переключён в режим '{ $mode }'.
-rcd-component-change-build-mode = РСУ переключён в режим строительства. Строится { $name }.
+rcd-component-change-mode = УБС переключено в режим '{ $mode }'.
+rcd-component-change-build-mode = УБС переключено в режим строительства. Строится { $name }.
 # Ammo count
-rcd-component-no-ammo-message = В РСУ закончились заряды!
-rcd-component-insufficient-ammo-message = В РСУ не хватает зарядов!
+rcd-component-no-ammo-message = В УБС закончились заряды!
+rcd-component-insufficient-ammo-message = В УБС не хватает зарядов!
 # Deconstruction
 rcd-component-tile-indestructible-message = Эта клетка не может быть демонтирова!
 rcd-component-deconstruct-target-not-on-whitelist-message = Вы не можете демонтировать это!
