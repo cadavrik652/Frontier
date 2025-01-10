@@ -1,0 +1,95 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Copyright by https://github.com/ss220-space/Paradise",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "crest_s",
+        "directions": 4
+      },
+      {
+        "name": "fullbelly_man_s",
+        "directions": 4
+      },
+      {
+        "name": "fullbelly_woman_s",
+        "directions": 4
+      },
+      {
+        "name": "patch_body_f",
+        "directions": 4
+      },
+      {
+        "name": "patch_body_m",
+        "directions": 4
+      },
+      {
+        "name": "patch_larm",
+        "directions": 4
+      },
+      {
+        "name": "patch_lfoot",
+        "directions": 4
+      },
+      {
+        "name": "patch_lhand",
+        "directions": 4
+      },
+      {
+        "name": "patch_lleg",
+        "directions": 4
+      },
+      {
+        "name": "patch_rarm",
+        "directions": 4
+      },
+      {
+        "name": "patch_rfoot",
+        "directions": 4
+      },
+      {
+        "name": "patch_rhand",
+        "directions": 4
+      },
+      {
+        "name": "patch_rleg",
+        "directions": 4
+      },
+      {
+        "name": "points_larm",
+        "directions": 4
+      },
+      {
+        "name": "points_lfoot",
+        "directions": 4
+      },
+      {
+        "name": "points_lhand",
+        "directions": 4
+      },
+      {
+        "name": "points_lleg",
+        "directions": 4
+      },
+      {
+        "name": "points_rarm",
+        "directions": 4
+      },
+      {
+        "name": "points_rfoot",
+        "directions": 4
+      },
+      {
+        "name": "points_rhand",
+        "directions": 4
+      },
+      {
+        "name": "points_rleg",
+        "directions": 4
+      }
+    ]
+}

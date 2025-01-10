@@ -1,5 +1,6 @@
 using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Dataset;
+using System.Text.RegularExpressions;
 using Robust.Shared.Random;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Enums;
@@ -29,6 +30,8 @@ namespace Content.Shared.Humanoid
                 case SpeciesNaming.First:
                     return Loc.GetString("namepreset-first",
                         ("first", GetFirstName(speciesProto, gender)));
+                case SpeciesNaming.TajaranGenerator:
+                    return GetTajaranName(speciesProto, gender);
                 // Start of Nyano - Summary: for Oni naming
                 case SpeciesNaming.LastNoFirst:
                     return Loc.GetString("namepreset-lastnofirst",
@@ -83,5 +86,29 @@ namespace Content.Shared.Humanoid
             }
         }
         // Corvax-LastnameGender-End
+
+    /// <summary>
+    /// #TODOLIST add all species name generators and make female endings support
+    /// </summary>
+        public string GetTajaranName(SpeciesPrototype speciesProto, Gender? gender = null)
+        {
+            List<string> _ru_names_syllables = new List<string> { "кан","тай","кир","раи","кии","мир","кра","тэк","нал","вар","хар","марр","ран","дарр",
+	            "мирк","ири","дин","манг","рик","зар","раз","кель","шера","тар","кей","ар","но","маи","зир","кер","нир","ра",
+	            "ми","рир","сей","эка","гир","ари","нэй","нре","ак","таир","эрай","жин","мра","зур","рин","сар","кин","рид","эра","ри","эна"};
+            string _apostrophe =  "'";
+            string _newName = "";
+            string _fullName = "";
+
+            for (int i = 0; i<2; i++)
+            {
+                for (int x = _random.Next(1,2); x>0; x--) _newName += _random.PickAndTake(_ru_names_syllables);
+                _newName += _apostrophe;
+                _apostrophe = "";
+            }
+            _fullName= string.Concat(char.ToUpper(_newName[0]).ToString(), _newName.Remove(0, 1));
+            if (_random.Prob(0.75f)) _fullName += " " +  _random.Pick(new List<string> {"Хадии","Кайтам","Жан-Хазан","Нъярир’Ахан"});
+            else if (_random.Prob(0.8f))  _fullName += " " +  _random.Pick(new List<string> {"Энай-Сэндай","Наварр-Сэндай","Року-Сэндай","Шенуар-Сэндай"});
+            return _fullName;
+        }
     }
 }

@@ -8,3 +8,6 @@
     sprite: Clothing/Shoes/Misc/clothwarp.rsi
   - type: Clothing
     sprite: Clothing/Shoes/Misc/clothwarp.rsi
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/_NF/Effects/silence.ogg
