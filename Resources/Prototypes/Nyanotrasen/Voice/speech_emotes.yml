@@ -193,3 +193,36 @@
     - мурлыкает!
     - мурлыкает~
     # Corvax-Localization-End
+
+- type: emote
+  id: PurrLong
+  category: Vocal
+  name: PurrLong
+  icon: Interface/Actions/scream.png
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [мурлычет!]
+  chatTriggers:
+    - purr
+    - purrs
+    - purring
+    - purred
+    - purring.
+    - purred.
+    - мурчит
+    - мурчит.
+    - мурчит!
+    - мурчит~
+    - мурлычет
+    - мурлычет.
+    - мурлычет!
+    - мурлычет~
+    - мурлыкает
+    - мурлыкает.
+    - мурлыкает!
+    - мурлыкает~

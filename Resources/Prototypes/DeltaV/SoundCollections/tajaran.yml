@@ -1,0 +1,14 @@
+- type: soundCollection
+  id: TajaranPurr
+  files:
+  - /Audio/Corvax/Voice/Tajaran/tajaran_purr.ogg
+
+- type: soundCollection
+  id: TajaranPurrLong
+  files:
+  - /Audio/Corvax/Voice/Tajaran/tajaran_purr_long.ogg
+
+- type: soundCollection
+  id: TajaranHiss
+  files:
+  - /Audio/Corvax/Voice/Tajaran/tajaran_hiss.ogg
