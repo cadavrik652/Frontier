@@ -9,8 +9,8 @@
 
 - type: marking
   id: TajaranSnoutMarkingLynx
-  bodyPart: Snout
-  markingCategory: Snout
+  bodyPart: Head
+  markingCategory: Head
   speciesRestriction: [Tajaran]
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/head_markings.rsi
@@ -18,8 +18,8 @@
 
 - type: marking
   id: TajaranSnoutMarkingMuzinears
-  bodyPart: Snout
-  markingCategory: Snout
+  bodyPart: Head
+  markingCategory: Head
   speciesRestriction: [Tajaran]
   sprites:
     - sprite: Corvax/Mobs/Customization/Tajaran/head_markings.rsi
