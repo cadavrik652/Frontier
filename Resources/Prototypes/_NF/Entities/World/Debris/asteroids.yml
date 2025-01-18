@@ -761,3 +761,4 @@
   parent: [NFBaseAsteroidScrapDebris, NFAsteroidDebrisExtraGigantic]
   categories: [ HideSpawnMenu ]
 # endregion Scrap Entities
+

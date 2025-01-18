@@ -1,0 +1,26 @@
+- type: vessel
+  id: pole
+  name: Полюс
+  description: Большой пиратский шаттл.
+  price: 100000
+  category: Large
+  group: BlackMarket
+  shuttlePath: /Maps/Corvax/Shuttles/BlackMarket/pole.yml
+
+- type: gameMap
+  id: pole
+  mapName: 'pole'
+  mapPath: /Maps/Corvax/Shuttles/BlackMarket/pole.yml
+  minPlayers: 0
+  stations:
+    pole:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Газовый Гигант {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Pirate: [ 0, 0 ]

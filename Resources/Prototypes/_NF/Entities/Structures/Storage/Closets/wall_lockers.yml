@@ -296,8 +296,6 @@
         occludes: True
         ent: null
 
-
-
 - type: entity
   id: ClosetWallN2
   name: emergency nitrogen wall closet
