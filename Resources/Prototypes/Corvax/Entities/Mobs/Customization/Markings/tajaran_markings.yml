@@ -253,7 +253,7 @@
 # TIGER STRIPES & FULL BELLY
 
 - type: marking
-  id: TajaranTigerFullBellyBodyM
+  id: TajaranTigerFullBellyChestM
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Tajaran]
@@ -264,7 +264,7 @@
       state: tigerfullbelly_body_m_front
 
 - type: marking
-  id: TajaranTigerFullBellyBodyF
+  id: TajaranTigerFullBellyChestF
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Tajaran]
