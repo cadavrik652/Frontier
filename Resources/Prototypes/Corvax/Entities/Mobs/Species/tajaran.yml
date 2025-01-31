@@ -121,6 +121,10 @@
         - MobMask
         layer:
         - MobLayer
+  - type: KeenHearing
+    visionRadius: 8
+    highSensitiveVisionRadius: 4
+    addAction: true
 
 - type: entity
   save: false
