@@ -1,0 +1,59 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Copyright by https://github.com/ss220-space/Paradise",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "tentacles_middle",
+        "directions": 4
+      },
+      {
+        "name": "tentacles_short",
+        "directions": 4
+      },
+      {
+        "name": "tentacles_long",
+        "directions": 4
+      },
+      {
+        "name": "tentacles_back_long",
+        "directions": 4
+      },
+      {
+        "name": "tentacles_back_short",
+        "directions": 4
+      },
+      {
+        "name": "tentacles_braided",
+        "directions": 4
+      },
+      {
+        "name": "tentacles_bun",
+        "directions": 4
+      },
+      {
+        "name": "tentacles_bun_long",
+        "directions": 4
+      },
+      {
+        "name": "tentacles_short_left",
+        "directions": 4
+      },
+      {
+        "name": "tentacles_short_right",
+        "directions": 4
+      },
+      {
+        "name": "tentacles_wavy",
+        "directions": 4
+      },
+      {
+        "name": "tentacles_around_neck",
+        "directions": 4
+      }
+    ]
+}
