@@ -1,5 +1,5 @@
 - type: entity
-  id: BaseSkrellOrganUnGibbable
+  id: BaseSkrellOrgan
   parent: BaseItem
   abstract: true
   components:
@@ -7,7 +7,6 @@
     sprite: Corvax\Mobs\Species\Skrell\organs.rsi
   - type: Organ
   - type: Food
-#    quality: Nasty # Frontier
   - type: Extractable
     grindableSolutionName: organ
   - type: SolutionContainerManager
@@ -29,19 +28,13 @@
       - Meat
 
 - type: entity
-  id: BaseSkrellOrgan
-  parent: BaseSkrellOrganUnGibbable
-  abstract: true
-  components:
-  - type: Gibbable
-
-- type: entity
   id: OrganSkrellBrain
-  parent: BaseSkrellOrganUnGibbable
+  parent: BaseSkrellOrgan
   name: brain
   description: "The source of incredible, unending intelligence. Honk."
   components:
   - type: Sprite
+    sprite: Corvax\Mobs\Species\Skrell\organs.rsi
     state: brain
   - type: Organ
   - type: Input
@@ -81,8 +74,9 @@
   parent: BaseSkrellOrgan
   name: eyes
   description: "I see you!"
-  components:
+  components: 
   - type: Sprite
+    sprite: Corvax\Mobs\Species\Skrell\organs.rsi
     layers:
       - state: eyeball-l
       - state: eyeball-r
@@ -97,6 +91,7 @@
   description: "A fleshy muscle mostly used for lying."
   components:
   - type: Sprite
+    sprite: Corvax\Mobs\Species\Skrell\organs.rsi
     state: tongue
 
 - type: entity
@@ -105,6 +100,7 @@
   name: appendix
   components:
   - type: Sprite
+    sprite: Corvax\Mobs\Species\Skrell\organs.rsi
     layers:
     - state: appendix
     - state: appendix-inflamed
@@ -117,6 +113,7 @@
   description: "There are three parts to the ear. Inner, middle and outer. Only one of these parts should normally be visible."
   components:
   - type: Sprite
+    sprite: Corvax\Mobs\Species\Skrell\organs.rsi
     state: ears
 
 - type: entity
@@ -126,6 +123,7 @@
   description: "Filters oxygen from an atmosphere, which is then sent into the bloodstream to be used as an electron carrier."
   components:
   - type: Sprite
+    sprite: Corvax\Mobs\Species\Skrell\organs.rsi
     layers:
       - state: lung-l
       - state: lung-r
@@ -163,13 +161,14 @@
   description: "I feel bad for the heartless bastard who lost this."
   components:
   - type: Sprite
+    sprite: Corvax\Mobs\Species\Skrell\organs.rsi
     state: heart-on
   # The heart 'metabolizes' medicines and poisons that aren't filtered out by other organs.
   # This is done because these chemicals need to have some effect even if they aren't being filtered out of your body.
   # You're technically 'immune to poison' without a heart, but.. uhh, you'll have bigger problems on your hands.
   - type: Metabolizer
     maxReagents: 2
-    metabolizerTypes: [Human]
+    metabolizerTypes: [Skrell]
     groups:
     - id: Medicine
     - id: Cryogenic # Frontier
@@ -186,6 +185,7 @@
   description: "Gross. This is hard to stomach."
   components:
   - type: Sprite
+    sprite: Corvax\Mobs\Species\Skrell\organs.rsi
     state: stomach
   - type: Item
     size: Small
@@ -218,6 +218,7 @@
   description: "Pairing suggestion: chianti and fava beans."
   components:
   - type: Sprite
+    sprite: Corvax\Mobs\Species\Skrell\organs.rsi
     state: liver
   - type: Item
     size: Small
@@ -228,6 +229,10 @@
     groups:
     - id: Alcohol
       rateModifier: 0.1 # removes alcohol very slowly along with the stomach removing it as a drink
+    - id: Poison
+      rateModifier: 2 # removes Poison fast
+    - id: Narcotic
+      rateModifier: 2 # removes Narcotic fast
 
 - type: entity
   id: OrganSkrellKidneys
@@ -236,6 +241,7 @@
   description: "Filters toxins from the bloodstream."
   components:
   - type: Sprite
+    sprite: Corvax\Mobs\Species\Skrell\organs.rsi
     layers:
       - state: kidney-l
       - state: kidney-r

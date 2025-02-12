@@ -27,12 +27,13 @@
   - type: Speech # Frontier
     allowedEmotes: ['Belch'] # Frontier
   - type: Inventory
-    speciesId: skrell
+    templateId: skrell
   - type: TypingIndicator
     proto: skrell
-  - type: Sprite 
-    layers:
-    - map: [ "pocket1" ]
+  - type: NoSlip
+  # Damage (Self)
+  - type: Bloodstream
+    bloodReagent: CopperBlood
 
 - type: entity
   parent: BaseSpeciesDummy
@@ -40,3 +41,4 @@
   components:
   - type: HumanoidAppearance
     species: Skrell
+    
