@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Made by 𝘽𝙚𝙡𝙖𝙮#7441, tajaran by kyrbi (discord)",
+    "copyright": "Made by 𝘽𝙚𝙡𝙖𝙮#7441, tajaran by kyrbi (discord), skrell by cadavrik (discord)",
     "size": {
         "x": 32,
         "y": 32
@@ -57,6 +57,14 @@
         },
         {
             "name": "equipped-head-unshaded-tajaran",
+            "directions": 4
+        },
+        {
+            "name": "equipped-head-skrell",
+            "directions": 4
+        },
+        {
+            "name": "equipped-head-unshaded-skrell",
             "directions": 4
         }
     ]

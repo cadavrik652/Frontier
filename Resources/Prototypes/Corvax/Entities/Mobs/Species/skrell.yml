@@ -26,6 +26,13 @@
   - type: Carriable # Frontier: Carrying system from nyanotrasen.
   - type: Speech # Frontier
     allowedEmotes: ['Belch'] # Frontier
+  - type: Inventory
+    speciesId: skrell
+  - type: TypingIndicator
+    proto: skrell
+  - type: Sprite 
+    layers:
+    - map: [ "pocket1" ]
 
 - type: entity
   parent: BaseSpeciesDummy

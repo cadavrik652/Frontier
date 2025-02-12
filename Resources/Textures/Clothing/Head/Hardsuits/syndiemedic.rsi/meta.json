@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Made by Hqlle (github), tajaran by kyrbi (discord)",
+    "copyright": "Made by Hqlle (github), tajaran by kyrbi (discord), skrell by cadavrik (discord)",
 
     "size": {
         "x": 32,
@@ -68,6 +68,14 @@
         },
         {
             "name": "on-equipped-HELMET-tajaran",
+            "directions": 4
+        },
+        {
+            "name": "off-equipped-HELMET-skrell",
+            "directions": 4
+        },
+        {
+            "name": "on-equipped-HELMET-skrell",
             "directions": 4
         }
     ]

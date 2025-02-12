@@ -37,6 +37,10 @@
         {
           "name": "equipped-HELMET-tajaran",
           "directions": 4
+        },
+        {
+          "name": "equipped-HELMET-skrell",
+          "directions": 4
         }
     ]
 }

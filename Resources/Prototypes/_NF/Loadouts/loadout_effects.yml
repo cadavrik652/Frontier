@@ -25,6 +25,8 @@
     - Harpy
     - Rodentia
     - Tajaran
+    - Skrell 
+    - Elzuosa 
 
 - type: loadoutEffectGroup
   id: PantsCapableNF
@@ -45,6 +47,8 @@
     - Vulpkanin
     - Rodentia
     - Tajaran
+    - Skrell 
+    - Elzuosa 
 
 - type: loadoutEffectGroup
   id: ShoesCapableNF
@@ -65,6 +69,8 @@
     - Harpy
     - Rodentia
     - Tajaran
+    - Skrell 
+    - Elzuosa 
 
 - type: loadoutEffectGroup
   id: NotStcNF

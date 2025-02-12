@@ -156,3 +156,8 @@ chat-speech-verb-name-tajaran = tajaran
 chat-speech-verb-tajaran-1 = mrowls
 chat-speech-verb-tajaran-2 = purrs
 chat-speech-verb-tajaran-3 = growls
+
+chat-speech-verb-name-skrell = Skrell
+chat-speech-verb-skrell-1 = warbles
+chat-speech-verb-skrell-2 = clatters
+chat-speech-verb-skrell-3 = seethes

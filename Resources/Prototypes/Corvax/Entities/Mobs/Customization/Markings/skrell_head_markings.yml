@@ -1,7 +1,7 @@
 - type: marking
   id: SkrellHeadMarkingHeaddressBlack
-  bodyPart: Head
-  markingCategory: Head
+  bodyPart: HeadTop
+  markingCategory: HeadTop
   speciesRestriction: [Skrell]
   sprites:
     - sprite: Corvax/Mobs/Customization/Skrell/head_markings.rsi
@@ -9,8 +9,8 @@
 
 - type: marking
   id: SkrellHeadMarkingHeaddressFestival
-  bodyPart: Head
-  markingCategory: Head
+  bodyPart: HeadTop
+  markingCategory: HeadTop
   speciesRestriction: [Skrell]
   sprites:
     - sprite: Corvax/Mobs/Customization/Skrell/head_markings.rsi
@@ -18,8 +18,8 @@
 
 - type: marking
   id: SkrellHeadMarkingHeaddressGold
-  bodyPart: Head
-  markingCategory: Head
+  bodyPart: HeadTop
+  markingCategory: HeadTop
   speciesRestriction: [Skrell]
   sprites:
     - sprite: Corvax/Mobs/Customization/Skrell/head_markings.rsi
@@ -27,8 +27,8 @@
 
 - type: marking
   id: SkrellHeadMarkingHeaddressGoldChains
-  bodyPart: Head
-  markingCategory: Head
+  bodyPart: HeadTop
+  markingCategory: HeadTop
   speciesRestriction: [Skrell]
   sprites:
     - sprite: Corvax/Mobs/Customization/Skrell/head_markings.rsi
@@ -36,8 +36,8 @@
 
 - type: marking
   id: SkrellHeadMarkingHeaddressSilver
-  bodyPart: Head
-  markingCategory: Head
+  bodyPart: HeadTop
+  markingCategory: HeadTop
   speciesRestriction: [Skrell]
   sprites:
     - sprite: Corvax/Mobs/Customization/Skrell/head_markings.rsi
@@ -45,8 +45,8 @@
 
 - type: marking
   id: SkrellHeadMarkingScarvesFront
-  bodyPart: Head
-  markingCategory: Head
+  bodyPart: HeadTop
+  markingCategory: HeadTop
   speciesRestriction: [Skrell]
   sprites:
     - sprite: Corvax/Mobs/Customization/Skrell/head_markings.rsi
