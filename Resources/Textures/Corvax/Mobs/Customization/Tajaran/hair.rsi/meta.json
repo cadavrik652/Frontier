@@ -1,0 +1,219 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Copyright by https://github.com/ss220-space/Paradise",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "bangs_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "bangs_s",
+        "directions": 4
+      },
+      {
+        "name": "bedhead_s",
+        "directions": 4
+      },
+      {
+        "name": "bob_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "bob_s",
+        "directions": 4
+      },
+      {
+        "name": "braid_beads_s",
+        "directions": 4
+      },
+      {
+        "name": "braid_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "braid_s",
+        "directions": 4
+      },
+      {
+        "name": "clean_s",
+        "directions": 4
+      },
+      {
+        "name": "combedback_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "combedback_s",
+        "directions": 4
+      },
+      {
+        "name": "curly_s",
+        "directions": 4
+      },
+      {
+        "name": "cuttall_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "cuttall_s",
+        "directions": 4
+      },
+      {
+        "name": "dreadlock_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "dreadlock_s",
+        "directions": 4
+      },
+      {
+        "name": "fingerwave_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "fingerwave_s",
+        "directions": 4
+      },
+      {
+        "name": "ladiesretro_s",
+        "directions": 4
+      },
+      {
+        "name": "long_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "long_s",
+        "directions": 4
+      },
+      {
+        "name": "longtail_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "longtail_s",
+        "directions": 4
+      },
+      {
+        "name": "marmalade_s",
+        "directions": 4
+      },
+      {
+        "name": "messy_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "messy_s",
+        "directions": 4
+      },
+      {
+        "name": "metal_s",
+        "directions": 4
+      },
+      {
+        "name": "mohawk_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "mohawk_s",
+        "directions": 4
+      },
+      {
+        "name": "overeye_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "overeye_s",
+        "directions": 4
+      },
+      {
+        "name": "plait_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "plait_s",
+        "directions": 4
+      },
+      {
+        "name": "ponytail_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "ponytail_s",
+        "directions": 4
+      },
+      {
+        "name": "rattail_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "rattail_s",
+        "directions": 4
+      },
+      {
+        "name": "ribbons_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "ribbons_s",
+        "directions": 4
+      },
+      {
+        "name": "shaggy_s",
+        "directions": 4
+      },
+      {
+        "name": "shy_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "shy_s",
+        "directions": 4
+      },
+      {
+        "name": "sidebraid_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "sidebraid_s",
+        "directions": 4
+      },
+      {
+        "name": "spikey_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "spikey_s",
+        "directions": 4
+      },
+      {
+        "name": "straight_s",
+        "directions": 4
+      },
+      {
+        "name": "tailedbangs_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "tailedbangs_s",
+        "directions": 4
+      },
+      {
+        "name": "tough_ears_s",
+        "directions": 4
+      },
+      {
+        "name": "tough_s",
+        "directions": 4
+      },
+      {
+        "name": "victory_s",
+        "directions": 4
+      }
+    ]
+}

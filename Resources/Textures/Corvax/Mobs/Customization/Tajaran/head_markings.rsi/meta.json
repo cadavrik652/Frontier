@@ -1,0 +1,63 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Copyright by https://github.com/ss220-space/Paradise",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "inears_s",
+        "directions": 4
+      },
+      {
+        "name": "lynx_s",
+        "directions": 4
+      },
+      {
+        "name": "muzinears_s",
+        "directions": 4
+      },
+      {
+        "name": "muzzle_s",
+        "directions": 4
+      },
+      {
+        "name": "muzzle2_s",
+        "directions": 4
+      },
+      {
+        "name": "nose_s",
+        "directions": 4
+      },
+      {
+        "name": "outears_s",
+        "directions": 4
+      },
+      {
+        "name": "patch_s",
+        "directions": 4
+      },
+      {
+        "name": "points_s",
+        "directions": 4
+      },
+      {
+        "name": "tiger_face_s",
+        "directions": 4
+      },
+      {
+        "name": "snout_whiskers_s",
+        "directions": 4
+      },
+      {
+        "name": "tiger_head_s",
+        "directions": 4
+      },
+      {
+        "name": "ears_plain_s",
+        "directions": 4
+      }
+    ]
+}

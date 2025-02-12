@@ -42,6 +42,8 @@
         - /Maps/Corvax/Bluespace/cargomc.yml #Corvax-Frontier
 
 
+
+
 - type: entity
   id: BluespaceSyndicateFTLRepeater
   parent: BaseStationEventShortDelay

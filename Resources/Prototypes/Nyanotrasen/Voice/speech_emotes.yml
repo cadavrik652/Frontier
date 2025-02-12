@@ -2,7 +2,7 @@
 - type: emote
   id: Hiss
   category: Vocal
-  name: Hiss
+  name: chat-emote-name-hiss
   icon: Interface/Actions/scream.png
   available: false
   whitelist:
@@ -11,7 +11,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [hisses.]
+  chatMessages: [шипит!]
   chatTriggers:
     - hiss
     - hisses
@@ -162,7 +162,7 @@
 - type: emote
   id: Purr
   category: Vocal
-  name: Purr
+  name: chat-emote-name-purr
   icon: Interface/Actions/scream.png
   available: false
   whitelist:
@@ -176,9 +176,6 @@
     - purr
     - purrs
     - purring
-    - purred
-    - purring.
-    - purred.
     # Corvax-Localization-Start
     - мурчит
     - мурчит.
@@ -186,10 +183,28 @@
     - мурчит~
     - мурлычет
     - мурлычет.
+    # Corvax-Localization-End
+
+- type: emote
+  id: PurrLong
+  category: Vocal
+  name: chat-emote-name-tajaran_purr_long
+  icon: Interface/Actions/scream.png
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [громко мурлычет!]
+  chatTriggers:
+    - purred
+    - purring.
+    - purred.
     - мурлычет!
     - мурлычет~
     - мурлыкает
     - мурлыкает.
     - мурлыкает!
     - мурлыкает~
-    # Corvax-Localization-End

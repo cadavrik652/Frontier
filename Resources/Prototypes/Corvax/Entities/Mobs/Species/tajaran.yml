@@ -1,0 +1,161 @@
+- type: entity
+  save: false
+  name: Urist McTajaran
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobTajaran
+  abstract: true
+  components:
+  - type: HumanoidAppearance
+    species: Tajaran
+    hideLayersOnEquip:
+    - Hair
+    - Snout
+  - type: Hunger # on 1.5x more
+    thresholds:
+      Overfed: 250
+      Okay: 200
+      Peckish: 150
+      Starving: 100
+      Dead: 0
+    baseDecayRate: 0.03
+  - type: Thirst
+    thresholds:
+      OverHydrated: 650
+      Okay: 500
+      Thirsty: 350
+      Parched: 200
+      Dead: 0
+  - type: Carriable
+  - type: TypingIndicator
+    proto: tajaran
+  - type: Icon
+    sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
+    state: full
+  - type: Body
+    prototype: Tajaran
+    requiredLegs: 2
+  - type: Inventory
+    speciesId: tajaran
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit-female
+      shoes:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      shoes:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+  - type: ContentEye
+    targetZoom: "1.125, 1.125"
+    maxZoom: "1.125, 1.125"
+  - type: Speech #TODOLIST Make sounds
+    #speechSounds:
+    speechVerb: Tajaran
+    allowedEmotes: ['Purr', 'PurrLong', 'Hiss']
+  - type: Vocal
+    sounds:
+      Male: MaleTajaran
+      Female: FemaleTajaran
+      Unsexed: MaleTajaran
+  - type: GrowlingAccent
+  - type: MeleeWeapon
+    animation: WeaponArcClaw
+    attackRate: 1.25
+    soundHit:
+      collection: AlienClaw
+    damage:
+      types:
+        Slash: 4
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Tajaran
+  - type: Respirator
+    damage:
+      types:
+        Asphyxiation: 2.0
+    damageRecovery:
+      types:
+        Asphyxiation: -2.0
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeat
+      amount: 4
+  - type: Wagging
+  - type: Temperature
+    heatDamageThreshold: 390
+    coldDamageThreshold: 230
+  - type: TemperatureSpeed
+    thresholds:
+      289: 0.8
+      275: 0.6
+      250: 0.4
+  - type: TemperatureProtection
+    coolingCoefficient: 0.4
+    heatingCoefficient: 0.4
+  - type: Sprite
+    scale: 0.85, 0.85
+  - type: Fixtures
+    fixtures: # TODO: This needs a second fixture just for mob collisions.
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.30
+        density: 125
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: KeenHearing
+    visionRadius: 8
+    highSensitiveVisionRadius: 4
+    addAction: true
+
+- type: entity
+  save: false
+  name: Urist McHands
+  parent: MobHumanDummy
+  id: MobTajaranDummy
+  categories: [ HideSpawnMenu ]
+  description: A dummy tajaran meant to be used in character setup.
+  components:
+  - type: HumanoidAppearance
+    species: Tajaran
+  - type: Inventory
+    speciesId: tajaran
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit-female
+      shoes:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      shoes:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes

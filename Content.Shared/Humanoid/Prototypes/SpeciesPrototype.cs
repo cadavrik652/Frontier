@@ -135,4 +135,6 @@ public enum SpeciesNaming : byte
     LastNoFirst, // Nyano - Summary: for Oni naming
     TheFirstofLast,
     LastFirst, // DeltaV
+
+    TajaranGenerator, // Okay, we need this RIGHT NOW. #TODOLIST later.
 }
