@@ -1,0 +1,109 @@
+- type: marking
+  id: SkrellTentaclesMiddle
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Skrell]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Skrell/hair.rsi
+      state: tentacles_middle
+
+- type: marking
+  id: SkrellTentaclesShort
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Skrell]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Skrell/hair.rsi
+      state: tentacles_short
+
+- type: marking
+  id: SkrellTentaclesLong
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Skrell]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Skrell/hair.rsi
+      state: tentacles_long
+
+- type: marking
+  id: SkrellTentaclesAroundNeck
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Skrell]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Skrell/hair.rsi
+      state: tentacles_around_neck
+
+- type: marking
+  id: SkrellTentaclesBackLong
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Skrell]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Skrell/hair.rsi
+      state: tentacles_back_long
+
+- type: marking
+  id: SkrellTentaclesBackShort
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Skrell]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Skrell/hair.rsi
+      state: tentacles_back_short
+
+- type: marking
+  id: SkrellTentaclesBraided
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Skrell]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Skrell/hair.rsi
+      state: tentacles_braided
+
+- type: marking
+  id: SkrellTentaclesBun
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Skrell]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Skrell/hair.rsi
+      state: tentacles_bun
+
+- type: marking
+  id: SkrellTentaclesBunLong
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Skrell]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Skrell/hair.rsi
+      state: tentacles_bun_long
+
+- type: marking
+  id: SkrellTentaclesShortLeft
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Skrell]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Skrell/hair.rsi
+      state: tentacles_short_left
+
+- type: marking
+  id: SkrellTentaclesShortRight
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Skrell]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Skrell/hair.rsi
+      state: tentacles_short_right
+
+- type: marking
+  id: SkrellTentaclesWavy
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Skrell]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Skrell/hair.rsi
+      state: tentacles_wavy
+
+

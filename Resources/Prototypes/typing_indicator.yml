@@ -53,3 +53,8 @@
   id: tajaran
   typingState: tajaran0
   offset: -0.03, 0.190
+
+- type: typingIndicator
+  id: skrell
+  typingState: skrell0
+  offset: 0, 0.0625

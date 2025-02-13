@@ -64,7 +64,7 @@
       - !type:HealthChange
         conditions:
         - !type:OrganType
-          type: Arachnid
+          type: Hemocyanin
           shouldHave: false
         damage:
           types:
@@ -74,7 +74,7 @@
       - !type:ModifyBloodLevel
         conditions:
         - !type:OrganType
-          type: Arachnid
+          type: Hemocyanin
           shouldHave: true
         amount: 0.4
 
@@ -155,7 +155,7 @@
       - !type:HealthChange
         conditions:
         - !type:OrganType
-          type: Arachnid
+          type: Hemocyanin
           shouldHave: true
         damage:
           types:
@@ -165,7 +165,7 @@
       - !type:ModifyBloodLevel
         conditions:
         - !type:OrganType
-          type: Arachnid
+          type: Hemocyanin
           shouldHave: false
         amount: 0.4
 

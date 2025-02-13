@@ -439,6 +439,23 @@
         },
         {
             "name": "tajaran2"
+        },
+        {
+            "name": "skrell0",
+            "delays": [
+                [
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.3
+                ]
+            ]
+        },
+        {
+            "name": "skrell1"
+        },
+        {
+            "name": "skrell2"
         }
     ]
 }

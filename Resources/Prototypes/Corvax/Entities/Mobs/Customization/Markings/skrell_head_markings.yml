@@ -1,0 +1,55 @@
+- type: marking
+  id: SkrellHeadMarkingHeaddressBlack
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Skrell]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Skrell/head_markings.rsi
+      state: headdress_black
+
+- type: marking
+  id: SkrellHeadMarkingHeaddressFestival
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Skrell]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Skrell/head_markings.rsi
+      state: headdress_festival
+
+- type: marking
+  id: SkrellHeadMarkingHeaddressGold
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Skrell]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Skrell/head_markings.rsi
+      state: headdress_gold
+
+- type: marking
+  id: SkrellHeadMarkingHeaddressGoldChains
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Skrell]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Skrell/head_markings.rsi
+      state: headdress_gold_chains
+
+- type: marking
+  id: SkrellHeadMarkingHeaddressSilver
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Skrell]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Skrell/head_markings.rsi
+      state: headdress_silver
+
+- type: marking
+  id: SkrellHeadMarkingScarvesFront
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Skrell]
+  sprites:
+    - sprite: Corvax/Mobs/Customization/Skrell/head_markings.rsi
+      state: scarves_front
+
+

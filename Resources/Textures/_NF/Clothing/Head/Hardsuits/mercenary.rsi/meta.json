@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "copyright": "Resprite by kbas5 on discord, tajaran by kyrbi (discord)",
+    "copyright": "Resprite by kbas5 on discord, tajaran by kyrbi (discord), skrell by cadavrik (discord)",
     "license": "CC-BY-SA-3.0",
     "size": {
         "x": 32,
@@ -51,6 +51,14 @@
         },
         {
             "name": "on-equipped-HELMET-tajaran",
+            "directions": 4
+        },
+        {
+            "name": "off-equipped-HELMET-skrell",
+            "directions": 4
+        },
+        {
+            "name": "on-equipped-HELMET-skrell",
             "directions": 4
         },
         {

@@ -1,0 +1,52 @@
+- type: entity
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobSkrell
+  name: Urist McSkrell
+  abstract: true
+  components:
+  - type: Hunger # Corvax-Frontier
+    starvationDamage:
+      types:
+        Cold: 0.15
+        Bloodloss: 0.15
+  - type: Icon # It will not have an icon in the adminspawn menu without this. Body parts seem fine for whatever reason.
+    sprite: Corvax/Mobs/Species/Skrell/parts.rsi
+    state: full
+  - type: Thirst
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+  - type: HumanoidAppearance
+    species: Skrell
+    hideLayersOnEquip:
+    - Hair
+    - Snout
+  - type: Carriable # Frontier: Carrying system from nyanotrasen.
+  - type: Speech # Frontier
+    allowedEmotes: ['Belch'] # Frontier
+  - type: Body
+    prototype: Skrell
+    requiredLegs: 2
+  - type: Inventory
+    templateId: skrell
+  - type: TypingIndicator
+    proto: skrell
+  - type: NoSlip
+  # Damage (Self)
+  - type: Bloodstream
+    bloodReagent: CopperBlood
+  -type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Skrell
+    
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobSkrellDummy
+  components:
+  - type: HumanoidAppearance
+    species: Skrell
+
+
+    
