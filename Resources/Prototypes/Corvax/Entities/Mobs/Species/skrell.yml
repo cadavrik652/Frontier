@@ -26,6 +26,9 @@
   - type: Carriable # Frontier: Carrying system from nyanotrasen.
   - type: Speech # Frontier
     allowedEmotes: ['Belch'] # Frontier
+  - type: Body
+    prototype: Skrell
+    requiredLegs: 2
   - type: Inventory
     templateId: skrell
   - type: TypingIndicator
@@ -34,11 +37,16 @@
   # Damage (Self)
   - type: Bloodstream
     bloodReagent: CopperBlood
-
+  -type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Skrell
+    
 - type: entity
   parent: BaseSpeciesDummy
   id: MobSkrellDummy
   components:
   - type: HumanoidAppearance
     species: Skrell
+
+
     

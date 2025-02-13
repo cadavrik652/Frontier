@@ -168,12 +168,10 @@
   # You're technically 'immune to poison' without a heart, but.. uhh, you'll have bigger problems on your hands.
   - type: Metabolizer
     maxReagents: 2
-    metabolizerTypes: [Skrell]
+    metabolizerTypes: [Hemocyanin]
     groups:
     - id: Medicine
     - id: Cryogenic # Frontier
-    - id: Poison
-    - id: Narcotic
   - type: Item
     size: Small
     heldPrefix: heart
@@ -225,7 +223,7 @@
     heldPrefix: liver
   - type: Metabolizer # The liver metabolizes certain chemicals only, like alcohol.
     maxReagents: 1
-    metabolizerTypes: [Human]
+    metabolizerTypes: [Hemocyanin]
     groups:
     - id: Alcohol
       rateModifier: 0.1 # removes alcohol very slowly along with the stomach removing it as a drink

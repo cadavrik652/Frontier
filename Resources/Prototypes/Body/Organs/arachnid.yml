@@ -100,7 +100,7 @@
   - type: Metabolizer
     updateInterval: 1.5
     maxReagents: 2
-    metabolizerTypes: [Arachnid]
+    metabolizerTypes: [Arachnid, Animal, Hemocyanin]
     groups:
     - id: Medicine
     - id: Cryogenic # Frontier
